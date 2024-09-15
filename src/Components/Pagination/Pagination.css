@@ -1,0 +1,106 @@
+.Pagination {
+	width: 1300px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+.Pagination ul {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	grid-column-gap: 15px;
+}
+.Pagination ul li {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+}
+.Pagination ul li a {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+  cursor: pointer;
+	font-family: 'Inter';
+	font-weight: bold;
+	border: 1px solid #fe5f1e;
+  border-radius: 50px;
+  color: #fe5f1e;
+	width: 40px;
+	height: 40px;
+	transition: all 0.2s ease;
+}
+.Pagination ul li a:hover {
+	background-color: #fe5f1e;
+	color: white;
+}
+.Pagination ul .selected a {
+	background-color: #fe5f1e;
+	color: white;
+}
+
+@media (max-width: 1500px) {
+	.Pagination {
+		width: 1200px;
+	}
+	.Pagination ul {
+		grid-column-gap: 10px;
+	}
+	.Pagination ul li a {
+		width: 35px;
+		height: 35px;
+		font-size: 15px;
+	}
+}
+@media (max-width: 1350px) {
+	.Pagination {
+		width: 1000px;
+	}
+}
+@media (max-width: 1150px) {
+	.Pagination {
+		width: 900px;
+	}
+}
+@media (max-width: 950px) {
+	.Pagination {
+		width: 750px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		align-content: center;
+	}
+	.Pagination ul {
+		grid-column-gap: 15px;
+	}
+	.Pagination ul li a {
+		width: 40px;
+		height: 40px;
+		font-size: 16px;
+	}
+}
+@media (max-width: 850px) {
+	.Pagination {
+		width: 600px;
+	}
+	.Pagination ul {
+		grid-column-gap: 10px;
+	}
+	.Pagination ul li a {
+		width: 35px;
+		height: 35px;
+		font-size: 15px;
+	}
+}
+@media (max-width: 650px) {
+	.Pagination {
+		width: 400px;
+	}
+}
+@media (max-width: 425px) {
+	.Pagination {
+		width: 300px;
+	}
+}

@@ -1,0 +1,279 @@
+.CItem {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	width: 800px;
+	grid-column-gap: 10px;
+	padding: 5px 0;
+	border-top: 1px solid #f6f6f6;
+	height: 110px;
+}
+.CItem a {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	flex-direction: row;
+	text-decoration: none;
+	grid-column-gap: 10px;
+}
+.CItem #citem-pizza-image {
+	width: 80px;
+	height: 80px;
+}
+.CItem-info {
+	display: flex;
+	flex-direction: column;
+	width: 313px;
+}
+.CItem-info #citem-pizza-title {
+	font-family: 'Inter';
+	font-size: 22px;
+	line-height: 27px;
+	color: #232323;
+}
+.CItem-info #citem-pizza-info {
+	font-family: 'Inter';
+	font-size: 18px;
+	color: #8D8D8D;
+}
+.CItem-btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	flex-direction: row;
+	grid-column-gap: 12px;
+	width: 175px;
+}
+.CItem-btn button {
+	padding: 5px;
+	height: 28px;
+	border-radius: 50px;
+	outline: none;
+	cursor: pointer;
+	border: 2px solid #fe5f1e;
+	background-color: white;
+	transition: all 0.2s ease;
+}
+.CItem-btn button svg {
+	width: 14px;
+	height: 14px;
+}
+.CItem-btn button svg path {
+	transition: all 0.2s ease;
+	stroke: #fe5f1e;
+}
+.CItem-btn button:hover {
+	border: 2px solid #fe5f1e;
+	background-color: #fe5f1e;
+}
+.CItem-btn button:hover svg path {
+	stroke: #fff;
+}
+.CItem-btn p {
+	font-size: 20px;
+	font-family: 'Inter';
+	font-weight: 600;
+}
+.CItem #citem-summ {
+	width: 215px;
+	font-family: 'Inter';
+	font-size: 22px;
+	color: #232323;
+	font-weight: bold;
+	text-align: center;
+}
+.CItem #btn-x {
+	width: 17px;
+	height: 15px;
+	border: 2px solid #d7d7d7;
+	border-radius: 50px;
+	padding: 6.5px;
+	cursor: pointer;
+	transition: all 0.2s ease;
+}
+.CItem #btn-x:hover {
+	opacity: 0.8;
+}
+@media (max-width: 1150px) {
+	.CItem {
+		width: 750px;
+		height: 100px;
+	}
+	.CItem-info {
+		width: 250px;
+	}
+	.CItem #citem-summ {
+		width: 150px;
+	}
+	.CItem #btn-x {
+		width: 14px;
+		height: 14px;
+	}
+}
+@media (max-width: 950px) {
+	.CItem {
+		width: 700px;
+		height: 85px;
+	}
+	.CItem #citem-pizza-image {
+		width: 70px;
+		height: 70px;
+	}
+	.CItem-info {
+		width: 200px;
+	}
+	.CItem-info #citem-pizza-title {
+		font-size: 18px;
+	}
+	.CItem-info #citem-pizza-info {
+		font-size: 15px;
+	}
+	.CItem-btn button {
+		height: 26px;
+	}
+	.CItem-btn button svg {
+		width: 12px;
+		height: 12px;
+	}
+	.CItem-btn p {
+		font-size: 16px;
+	}
+	.CItem #citem-summ {
+		width: 150px;
+		font-size: 16px;
+	}
+	.CItem #btn-x {
+		width: 11px;
+		height: 11px;
+		padding: 5.5px;
+	}
+}
+@media (max-width: 850px) {
+	.CItem {
+		width: 600px;
+		height: 85px;
+	}
+	.CItem #citem-pizza-image {
+		width: 70px;
+		height: 70px;
+	}
+	.CItem-info {
+		width: 200px;
+	}
+	.CItem-info #citem-pizza-title {
+		font-size: 18px;
+	}
+	.CItem-info #citem-pizza-info {
+		font-size: 15px;
+	}
+	.CItem-btn p {
+		font-size: 16px;
+	}
+	.CItem #citem-summ {
+		width: 150px;
+		font-size: 16px;
+	}
+	.CItem #btn-x {
+		width: 12px;
+		height: 12px;
+		padding: 5.5px;
+	}
+}
+@media (max-width: 650px) {
+	.CItem {
+		width: 400px;
+		height: 55px;
+	}
+	.CItem a {
+		grid-column-gap: 8px;
+	}
+	.CItem #citem-pizza-image {
+		width: 45px;
+		height: 45px;
+	}
+	.CItem-info {
+		width: 120px;
+	}
+	.CItem-info #citem-pizza-title {
+		font-size: 12px;
+		line-height: 14px;
+	}
+	.CItem-info #citem-pizza-info {
+		font-size: 10px;
+	}
+	.CItem-btn {
+		width: 100px;
+		grid-column-gap: 10px;
+	}
+	.CItem-btn button {
+		padding: 3px;
+		height: 22px;
+	}
+	.CItem-btn button svg {
+		width: 12px;
+		height: 12px;
+	}
+	.CItem-btn p {
+		font-size: 14px;
+	}
+	.CItem #citem-summ {
+		width: 60px;
+		font-size: 14px;
+	}
+	.CItem #btn-x {
+		width: 8px;
+		height: 8px;
+		padding: 4px;
+	}
+}
+@media (max-width: 425px) {
+	.CItem {
+		width: 300px;
+		height: 50px;
+		grid-column-gap: 8px;
+	}
+	.CItem a {
+		grid-column-gap: 4px;
+	}
+	.CItem #citem-pizza-image {
+		width: 40px;
+		height: 40px;
+	}
+	.CItem-info {
+		width: 100px;
+	}
+	.CItem-info #citem-pizza-title {
+		font-size: 10px;
+		line-height: 12px;
+	}
+	.CItem-info #citem-pizza-info {
+		font-size: 9px;
+	}
+	.CItem-btn {
+		width: 70px;
+		grid-column-gap: 8px;
+	}
+	.CItem-btn button {
+		padding: 2px;
+		height: 20px;
+	}
+	.CItem-btn button svg {
+		width: 12px;
+		height: 12px;
+	}
+	.CItem-btn p {
+		font-size: 12px;
+	}
+	.CItem #citem-summ {
+		width: 60px;
+		font-size: 11px;
+	}
+	.CItem #btn-x {
+		width: 8px;
+		height: 8px;
+		padding: 4px;
+	}
+}

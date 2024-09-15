@@ -1,0 +1,26 @@
+.NotFound {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	flex-direction: column;
+	grid-row-gap: 5px;
+	height: 400px;
+	margin: 30px 0;
+}
+.NotFound img {
+	width: 120px;
+	height: 120px;
+}
+.NotFound h2 {
+	font-size: 24px;
+	font-family: 'Inter';
+	text-align: center;
+}
+.NotFound p {
+	text-align: center;
+	font-family: 'Inter';
+	font-size: 17px;
+	line-height: 22px;
+	width: 480px;
+}
